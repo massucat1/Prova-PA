@@ -1,0 +1,66 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos específicos para cada seção */
+
+.carousel {
+    /* Estilos para o carrossel de imagens */
+}
+
+.history {
+    /* Estilos para a seção de história */
+}
+
+.fauna-flora {
+    padding: 20px;
+}
+
+.fauna-flora img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.biomes {
+    padding: 20px;
+}
+
+.biomes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.biomes ul li {
+    margin-bottom: 10px;
+}
+
+.fauna,
+.flora,
+.importance,
+.biome {
+    padding: 20px;
+}
