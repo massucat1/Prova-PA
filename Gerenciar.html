@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espécies do Paraná</title>
+    <link rel="stylesheet" href="css/stylegerenciar.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <img src="./img/1.png" alt="Logo EcoParaná" class="logo">
+        <a href=".//indexinicial.html" class="BtnPaginaInicial">Página Inicial  </a>
+    </header>
+    <hr>
+    <h1>Espécies do Paraná</h1>
+    <div id="filters">
+        <label for="extincao">Selecione o estado de extinção:</label>
+        <select id="extincao">
+            <option value="nao_extintas">Não Extintas</option>
+            <option value="extintas">Extintas</option>
+        </select>
+
+        <label for="bioma">Selecione o bioma:</label>
+        <select id="bioma">
+            <option value="Floresta com Araucárias">Floresta com Araucárias</option>
+            <option value="Campos Naturais">Campos Naturais</option>
+            <option value="Mata Atlântica">Mata Atlântica</option>
+            <option value="Vegetação de Campos Gerais">Vegetação de Campos Gerais</option>
+            <option value="Floresta Ombrófila Mista">Floresta Ombrófila Mista</option>
+            <option value="Campos de Altitudes">Campos de Altitudes</option>
+            <option value="Áreas Úmidas">Áreas Úmidas</option>
+            <!-- Adicione outras opções de biomas conforme necessário -->
+        </select>
+
+        <button id="buscar">Buscar</button>
+    </div>
+
+    <div id="resultado">
+        <!-- Aqui serão exibidas as espécies filtradas -->
+    </div>
+    <footer class="footer">
+        <p>Todos os direitos reservados, criado e gerenciado por Carlos Massucato.</p>
+    </footer>
+
+    <div id="mapa-container">
+        <div id="mapa"></div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/scriptgerenciar.js"></script> <!-- Certifique-se de que o caminho para o arquivo JavaScript está correto -->
+    
+</body>
+</html>

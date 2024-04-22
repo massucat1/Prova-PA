@@ -1,0 +1,121 @@
+/* Estilos para a logo */
+.logo {
+    width: 250px; /* Defina o tamanho desejado para a logo */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Define a logo como um bloco para poder centralizá-la horizontalmente */
+    margin: 0 auto; /* Define margens automáticas para centralizar a logo horizontalmente */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o componente Hero */
+.ParanaHistoria {
+    display: flex; /* Define o layout do hero como flexível */
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: #78C22A; /* Cor de fundo do hero */
+    padding: 50px 0; /* Adiciona espaço interno superior e inferior */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; /* Define a cor do texto como branco */
+}
+    
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    flex: 1; /* Faz a imagem ocupar metade do hero */
+    padding: 0 20px; /* Adiciona um pequeno espaço entre a imagem e o texto */
+}
+
+.hero-image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+}
+
+.hero-text {
+    flex: 1; /* Faz o texto ocupar metade do hero */
+    padding: 0 20px; /* Adiciona um pequeno espaço entre a imagem e o texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+
+
+/* Estilos para a seção Fauna e Flora */
+.FaunaeFlora {
+    display: flex; /* Define o layout do contêiner principal como flexível */
+    justify-content: space-between; /* Distribui os contêineres ao longo do eixo principal */
+    background-color: #ffffff; /* Cor de fundo do contêiner principal */
+    padding: 50px 0; /* Adiciona espaço interno superior e inferior */
+    margin: 0 auto; /* Centraliza o contêiner principal horizontalmente na página */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #78C22A; /* Define a cor do texto como branco */
+}
+
+
+.box {
+    flex: 1; /* Define a flexibilidade das caixas para que ocupem o mesmo espaço */
+    padding: 20px; /* Adiciona um espaçamento interno nas caixas */
+}
+
+.box img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o limite da caixa */
+}
+
+.box p {
+    font-size: 1.1rem; /* Define o tamanho da fonte para o texto */
+}
+
+.box h1 {
+    font-size: 1.5rem; /* Define o tamanho da fonte para os títulos */
+    margin-bottom: 10px; /* Adiciona espaço inferior para separar o título do texto */
+}
+
+.box h3 {
+    font-size: 1.2rem; /* Define o tamanho da fonte para os subtítulos */
+    margin-bottom: 10px; /* Adiciona espaço inferior para separar o subtítulo do texto */
+}
+
+/* Estilos para o botão */
+.botao {
+    display: inline-block;
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #78C22A; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    border-radius: 5px; /* Borda arredondada do botão */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse sobre o botão */
+}
+.botao:hover {
+    background-color: #77b369; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.btn:hover {
+    background-color: #ffffff; /* Cor de fundo do botão ao passar o mouse */
+}
+/* Estilos para o rodapé */
+.footer {
+    background-color: #78C22A; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 1px 0; /* Espaçamento interno superior e inferior */
+}
+.botaobiodiversidade{
+    background-color: #78C22A;
+}
+
+/* Estilos para o botão */
+.btn {
+    display: inline-block;
+    background-color: #78C22A; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    border-radius: 5px; /* Borda arredondada do botão */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse sobre o botão */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do botão */
+}
+
+
+.btn:hover {
+    background-color: #77b369; /* Cor de fundo do botão ao passar o mouse */
+}
